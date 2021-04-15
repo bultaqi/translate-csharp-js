@@ -12,9 +12,9 @@ function main() {
   // This code ensures we don't end up with duplicate insults
   const indexes = [];
   while (indexes.length < 3) {
-    const candidate = getRandomInt(0, insults.length - 1);
-    if (!indexes.includes(candidate)) {
-      indexes.push(candidate);
+    const randomNum = getRandomInt(0, insults.length - 1);
+    if (!indexes.includes(randomNum)) {
+      indexes.push(randomNum);
     }
   }
 
