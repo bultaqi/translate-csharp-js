@@ -9,7 +9,7 @@ function main() {
     "Do you have to be so...like that?"
   ];
 
-  // This code ensures we don't end up with duplicate insults
+  //a while loop that checked that it would run until three had been placed into a new array and a conditional that asked if the random number generated already matched a one in the new array and if not it would push to the new array. I then created a for loop that with through the indexes and matched one of the random numbers to the insults array.
   const indexes = [];
   while (indexes.length < 3) {
     const randomNum = getRandomInt(0, insults.length - 1);
